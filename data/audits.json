@@ -1,0 +1,825 @@
+[
+  {
+    "artifact_type": "quant_hunter_integrity_audit",
+    "generated_at": "2026-05-19T19:59:11+08:00",
+    "status": "pass",
+    "root": "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter",
+    "counts": {
+      "paper_cards": 4,
+      "source_level_cards": 1,
+      "anchors": 5,
+      "known_tree_paths": 15,
+      "ledger_reviewed_count": 5
+    },
+    "checks": {
+      "paper_card_required_fields": {
+        "02_paper_cards/20260519_cfa_causality_factor_investing.md": {
+          "required_fields_present": true,
+          "missing": []
+        },
+        "02_paper_cards/20260519_jpm_nonstationarity_hazard.md": {
+          "required_fields_present": true,
+          "missing": []
+        },
+        "02_paper_cards/20260519_jpm_relevance_based_importance.md": {
+          "required_fields_present": true,
+          "missing": []
+        },
+        "02_paper_cards/20260519_nber_asset_embeddings.md": {
+          "required_fields_present": true,
+          "missing": []
+        }
+      },
+      "source_card_schema_status": "source_level_markdown_queue_present",
+      "anchors": {
+        "QH-20260519-001": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation",
+          "tree_path_exists": true
+        },
+        "QH-20260519-002": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Funds / Holdings / Ownership Network",
+          "tree_path_exists": true
+        },
+        "QH-20260519-003": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation",
+          "tree_path_exists": true
+        },
+        "QH-20260519-004": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Risk / Regime / Nonstationarity / Stress",
+          "tree_path_exists": true
+        },
+        "QH-20260519-005": {
+          "missing_required": [],
+          "source_card": "03_china_assets/china_a_share_p0_source_queue_20260519.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday",
+          "tree_path_exists": true
+        }
+      },
+      "cards_with_anchors": {
+        "02_paper_cards/20260519_cfa_causality_factor_investing.md": [
+          "QH-20260519-001"
+        ],
+        "02_paper_cards/20260519_nber_asset_embeddings.md": [
+          "QH-20260519-002"
+        ],
+        "02_paper_cards/20260519_jpm_relevance_based_importance.md": [
+          "QH-20260519-003"
+        ],
+        "02_paper_cards/20260519_jpm_nonstationarity_hazard.md": [
+          "QH-20260519-004"
+        ],
+        "03_china_assets/china_a_share_p0_source_queue_20260519.md": [
+          "QH-20260519-005"
+        ]
+      },
+      "scoring_evolution_count_consistency": {
+        "status": "pass",
+        "ledger": {
+          "reviewed_count_since_last_update": 5,
+          "current_reviewed_items_listed": 5
+        },
+        "expected_reviewed_count": 5,
+        "anchor_count": 5
+      }
+    },
+    "errors": [],
+    "warnings": [],
+    "boundary": {
+      "research_infrastructure_only": true,
+      "no_broker_qmt_order_account_live": true,
+      "no_router_ultra_runtime_latest_current_watchlist_mutation": true,
+      "no_production_strategy_config_mutation": true
+    },
+    "path": "00_governance/audits/quant_hunter_integrity_audit_20260519.json"
+  },
+  {
+    "artifact_type": "quant_hunter_integrity_audit",
+    "generated_at": "2026-05-20T09:33:04+08:00",
+    "status": "fail",
+    "root": "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter",
+    "counts": {
+      "paper_cards": 5,
+      "source_level_cards": 1,
+      "anchors": 6,
+      "known_tree_paths": 15,
+      "ledger_reviewed_count": 5
+    },
+    "checks": {
+      "paper_card_required_fields": {
+        "02_paper_cards/20260519_cfa_causality_factor_investing.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_jpm_nonstationarity_hazard.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_jpm_relevance_based_importance.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_nber_asset_embeddings.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md": {
+          "required_fields_present": true,
+          "missing": []
+        }
+      },
+      "source_card_schema_status": "source_level_markdown_queue_present",
+      "paper_card_directory_non_card_markdown": [
+        "02_paper_cards/20260519_jpm_issue51_9_priority_index.md"
+      ],
+      "anchors": {
+        "QH-20260519-001": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation",
+          "tree_path_exists": true
+        },
+        "QH-20260519-002": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Funds / Holdings / Ownership Network",
+          "tree_path_exists": true
+        },
+        "QH-20260519-003": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation",
+          "tree_path_exists": true
+        },
+        "QH-20260519-004": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Risk / Regime / Nonstationarity / Stress",
+          "tree_path_exists": true
+        },
+        "QH-20260519-005": {
+          "missing_required": [],
+          "source_card": "03_china_assets/china_a_share_p0_source_queue_20260519.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday",
+          "tree_path_exists": true
+        },
+        "QH-20260520-006": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday",
+          "tree_path_exists": true
+        }
+      },
+      "cards_with_anchors": {
+        "02_paper_cards/20260519_cfa_causality_factor_investing.md": [
+          "QH-20260519-001"
+        ],
+        "02_paper_cards/20260519_nber_asset_embeddings.md": [
+          "QH-20260519-002"
+        ],
+        "02_paper_cards/20260519_jpm_relevance_based_importance.md": [
+          "QH-20260519-003"
+        ],
+        "02_paper_cards/20260519_jpm_nonstationarity_hazard.md": [
+          "QH-20260519-004"
+        ],
+        "03_china_assets/china_a_share_p0_source_queue_20260519.md": [
+          "QH-20260519-005"
+        ],
+        "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md": [
+          "QH-20260520-006"
+        ]
+      },
+      "scoring_evolution_count_consistency": {
+        "status": "fail",
+        "ledger": {
+          "reviewed_count_since_last_update": 5,
+          "current_reviewed_items_listed": 5
+        },
+        "expected_reviewed_count": 6,
+        "anchor_count": 6
+      }
+    },
+    "errors": [
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "scoring_evolution_count_consistency",
+        "ledger": {
+          "reviewed_count_since_last_update": 5,
+          "current_reviewed_items_listed": 5
+        },
+        "paper_cards": 5,
+        "source_level_anchor_count": 1,
+        "anchors": 6
+      }
+    ],
+    "warnings": [
+      {
+        "check": "paper_card_directory_non_card_markdown",
+        "path": "02_paper_cards/20260519_jpm_issue51_9_priority_index.md"
+      }
+    ],
+    "boundary": {
+      "research_infrastructure_only": true,
+      "no_broker_qmt_order_account_live": true,
+      "no_router_ultra_runtime_latest_current_watchlist_mutation": true,
+      "no_production_strategy_config_mutation": true
+    },
+    "path": "00_governance/audits/quant_hunter_integrity_audit_20260520.json"
+  },
+  {
+    "artifact_type": "quant_hunter_integrity_audit",
+    "generated_at": "2026-05-20T09:32:51+08:00",
+    "status": "fail",
+    "root": "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter",
+    "counts": {
+      "paper_cards": 5,
+      "source_level_cards": 1,
+      "anchors": 6,
+      "known_tree_paths": 15,
+      "ledger_reviewed_count": 5
+    },
+    "checks": {
+      "paper_card_required_fields": {
+        "02_paper_cards/20260519_cfa_causality_factor_investing.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_jpm_nonstationarity_hazard.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_jpm_relevance_based_importance.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_nber_asset_embeddings.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md": {
+          "required_fields_present": true,
+          "missing": []
+        }
+      },
+      "source_card_schema_status": "source_level_markdown_queue_present",
+      "paper_card_directory_non_card_markdown": [
+        "02_paper_cards/20260519_jpm_issue51_9_priority_index.md"
+      ],
+      "anchors": {
+        "QH-20260519-001": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation",
+          "tree_path_exists": true
+        },
+        "QH-20260519-002": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Funds / Holdings / Ownership Network",
+          "tree_path_exists": true
+        },
+        "QH-20260519-003": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation",
+          "tree_path_exists": true
+        },
+        "QH-20260519-004": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Risk / Regime / Nonstationarity / Stress",
+          "tree_path_exists": true
+        },
+        "QH-20260519-005": {
+          "missing_required": [],
+          "source_card": "03_china_assets/china_a_share_p0_source_queue_20260519.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday",
+          "tree_path_exists": true
+        },
+        "QH-20260520-006": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday",
+          "tree_path_exists": true
+        }
+      },
+      "cards_with_anchors": {
+        "02_paper_cards/20260519_cfa_causality_factor_investing.md": [
+          "QH-20260519-001"
+        ],
+        "02_paper_cards/20260519_nber_asset_embeddings.md": [
+          "QH-20260519-002"
+        ],
+        "02_paper_cards/20260519_jpm_relevance_based_importance.md": [
+          "QH-20260519-003"
+        ],
+        "02_paper_cards/20260519_jpm_nonstationarity_hazard.md": [
+          "QH-20260519-004"
+        ],
+        "03_china_assets/china_a_share_p0_source_queue_20260519.md": [
+          "QH-20260519-005"
+        ],
+        "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md": [
+          "QH-20260520-006"
+        ]
+      },
+      "scoring_evolution_count_consistency": {
+        "status": "fail",
+        "ledger": {
+          "reviewed_count_since_last_update": 5,
+          "current_reviewed_items_listed": 5
+        },
+        "expected_reviewed_count": 6,
+        "anchor_count": 6
+      }
+    },
+    "errors": [
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "scoring_evolution_count_consistency",
+        "ledger": {
+          "reviewed_count_since_last_update": 5,
+          "current_reviewed_items_listed": 5
+        },
+        "paper_cards": 5,
+        "source_level_anchor_count": 1,
+        "anchors": 6
+      }
+    ],
+    "warnings": [
+      {
+        "check": "paper_card_directory_non_card_markdown",
+        "path": "02_paper_cards/20260519_jpm_issue51_9_priority_index.md"
+      }
+    ],
+    "boundary": {
+      "research_infrastructure_only": true,
+      "no_broker_qmt_order_account_live": true,
+      "no_router_ultra_runtime_latest_current_watchlist_mutation": true,
+      "no_production_strategy_config_mutation": true
+    },
+    "path": "00_governance/audits/quant_hunter_integrity_audit_20260520_verify.json"
+  },
+  {
+    "artifact_type": "quant_hunter_integrity_audit",
+    "generated_at": "2026-05-20T09:33:04+08:00",
+    "status": "fail",
+    "root": "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter",
+    "counts": {
+      "paper_cards": 5,
+      "source_level_cards": 1,
+      "anchors": 6,
+      "known_tree_paths": 15,
+      "ledger_reviewed_count": 5
+    },
+    "checks": {
+      "paper_card_required_fields": {
+        "02_paper_cards/20260519_cfa_causality_factor_investing.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_jpm_nonstationarity_hazard.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_jpm_relevance_based_importance.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260519_nber_asset_embeddings.md": {
+          "required_fields_present": false,
+          "missing": [
+            "China_asset_relevance_score",
+            "demo_applicability_score",
+            "access_quality",
+            "original_source_confirmed"
+          ]
+        },
+        "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md": {
+          "required_fields_present": true,
+          "missing": []
+        }
+      },
+      "source_card_schema_status": "source_level_markdown_queue_present",
+      "paper_card_directory_non_card_markdown": [
+        "02_paper_cards/20260519_jpm_issue51_9_priority_index.md"
+      ],
+      "anchors": {
+        "QH-20260519-001": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation",
+          "tree_path_exists": true
+        },
+        "QH-20260519-002": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Funds / Holdings / Ownership Network",
+          "tree_path_exists": true
+        },
+        "QH-20260519-003": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation",
+          "tree_path_exists": true
+        },
+        "QH-20260519-004": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > Risk / Regime / Nonstationarity / Stress",
+          "tree_path_exists": true
+        },
+        "QH-20260519-005": {
+          "missing_required": [],
+          "source_card": "03_china_assets/china_a_share_p0_source_queue_20260519.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday",
+          "tree_path_exists": true
+        },
+        "QH-20260520-006": {
+          "missing_required": [],
+          "source_card": "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md",
+          "source_card_exists": true,
+          "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday",
+          "tree_path_exists": true
+        }
+      },
+      "cards_with_anchors": {
+        "02_paper_cards/20260519_cfa_causality_factor_investing.md": [
+          "QH-20260519-001"
+        ],
+        "02_paper_cards/20260519_nber_asset_embeddings.md": [
+          "QH-20260519-002"
+        ],
+        "02_paper_cards/20260519_jpm_relevance_based_importance.md": [
+          "QH-20260519-003"
+        ],
+        "02_paper_cards/20260519_jpm_nonstationarity_hazard.md": [
+          "QH-20260519-004"
+        ],
+        "03_china_assets/china_a_share_p0_source_queue_20260519.md": [
+          "QH-20260519-005"
+        ],
+        "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md": [
+          "QH-20260520-006"
+        ]
+      },
+      "scoring_evolution_count_consistency": {
+        "status": "fail",
+        "ledger": {
+          "reviewed_count_since_last_update": 5,
+          "current_reviewed_items_listed": 5
+        },
+        "expected_reviewed_count": 6,
+        "anchor_count": 6
+      }
+    },
+    "errors": [
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_cfa_causality_factor_investing.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_jpm_relevance_based_importance.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "China_asset_relevance_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "demo_applicability_score"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "access_quality"
+      },
+      {
+        "check": "paper_card_required_fields",
+        "card": "02_paper_cards/20260519_nber_asset_embeddings.md",
+        "field": "original_source_confirmed"
+      },
+      {
+        "check": "scoring_evolution_count_consistency",
+        "ledger": {
+          "reviewed_count_since_last_update": 5,
+          "current_reviewed_items_listed": 5
+        },
+        "paper_cards": 5,
+        "source_level_anchor_count": 1,
+        "anchors": 6
+      }
+    ],
+    "warnings": [
+      {
+        "check": "paper_card_directory_non_card_markdown",
+        "path": "02_paper_cards/20260519_jpm_issue51_9_priority_index.md"
+      }
+    ],
+    "boundary": {
+      "research_infrastructure_only": true,
+      "no_broker_qmt_order_account_live": true,
+      "no_router_ultra_runtime_latest_current_watchlist_mutation": true,
+      "no_production_strategy_config_mutation": true
+    },
+    "path": "00_governance/audits/quant_hunter_integrity_audit_latest.json"
+  }
+]

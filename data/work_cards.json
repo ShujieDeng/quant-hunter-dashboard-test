@@ -1,0 +1,104 @@
+[
+  {
+    "task_id": "QH-WC-20260520-001",
+    "title": "QH-WC-20260520-001 MA Bull4 nonstationarity hazard demo",
+    "primary_menu": "QH-M6｜MA Bull4 Demo Replication",
+    "status": "active",
+    "progress_pct": 70,
+    "priority": "P0",
+    "updated_at": "2026-05-20",
+    "next_minimum_action": "Write adjusted-performance design note with state similarity used only as a reviewer tag; do not rerun heavy backtests until label semantics and allowed exclusions are frozen.",
+    "blockers": [
+      "PCA lineage not fully revalidated.",
+      "Low-similarity bucket is mixed: higher right-tail and concentrated left-tail; case review confirms heterogeneous mechanisms.",
+      "Existing policy labels are research artifacts, not production-equivalent proof.",
+      "At least one left-tail case remains `unknown`, and PCA lineage is still caveated."
+    ],
+    "artifacts": [
+      "10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/readout_summary.md",
+      "10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/case_review_low_similarity_hazard_20260520/case_review_summary.md",
+      "10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/case_review_low_similarity_hazard_20260520/case_review_ledger.csv",
+      "10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/case_review_low_similarity_hazard_20260520/case_review_classification_summary.csv",
+      "11_human_cards/20260520_mb4_demo_v0_state_similarity_readout.md",
+      "11_human_cards/20260520_mb4_demo_low_similarity_hazard_case_review.md"
+    ],
+    "path": "12_work_cards/active/QH-WC-20260520-001_ma_bull4_nonstationarity_demo.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-002",
+    "title": "QH-WC-20260520-002 China A-share microstructure broker-report source hunt",
+    "primary_menu": "QH-M1｜Source Hunting",
+    "status": "active",
+    "progress_pct": 55,
+    "priority": "P0",
+    "updated_at": "2026-05-20",
+    "next_minimum_action": "Find official/legal public PDF for 华泰《基于逐笔成交的深度学习选股模型》 to extract exact feature tables; if not available after another pass, create a second provisional card for 《多角度改进高频量价选股模型》 from the captured clean Sina text and keep `original_source_confirmed=false`.",
+    "blockers": [
+      "Original Huatai PDF/source not yet confirmed.",
+      "Sina repost text is clean enough for provisional card but omits some official PDF figures/tables and exact feature definitions.",
+      "Report mirrors offering PDF download require login/free account or sit behind document-preview surfaces; not used to bypass access restrictions.",
+      "Local transaction-level data availability remains unverified."
+    ],
+    "artifacts": [
+      "03_china_assets/china_a_share_p0_source_queue_20260519.md",
+      "03_china_assets/source_extracts/20260520_sina_huatai_tick_deep_learning_20250805.md",
+      "03_china_assets/source_extracts/20260520_sina_huatai_multi_angle_hf_price_volume_20250325.md",
+      "02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md",
+      "07_vector_anchors/vector_anchor_index.md",
+      "08_tree_maps/knowledge_tree.md",
+      "11_human_cards/20260520_china_microstructure_source_hunt.md"
+    ],
+    "path": "12_work_cards/active/QH-WC-20260520-002_china_microstructure_source_hunt.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-003",
+    "title": "QH-WC-20260520-003 Quant Hunter SOP/governance patch integration",
+    "primary_menu": "QH-M4｜SOP / Governance Patch",
+    "status": "active",
+    "progress_pct": 65,
+    "priority": "P0",
+    "updated_at": "2026-05-20 09:35 Asia/Shanghai",
+    "next_minimum_action": "Backfill the four older paper cards with upgraded metadata fields, sync the scoring ledger for the Huatai card if accepted, rerun `validate_quant_hunter_integrity.py`, and require `status=pass`; then make controlled schema/SOP patch proposal or patch.",
+    "blockers": [
+      "Local audit now reveals actual schema drift: the four older 20260519 paper cards are missing upgraded template metadata fields (`China_asset_relevance_score`, `demo_applicability_score`, `access_quality`, `original_source_confirmed`).",
+      "Scoring ledger count/list must be updated if the new Huatai card/anchor is accepted into reviewed scope.",
+      "Do not patch canonical factor-library schema or strategy-factory SOP until local audit passes after backfill + ledger sync.",
+      "Need decide whether canonical patch should target factor-library schema, strategy-factory SOP, or both after local pass."
+    ],
+    "artifacts": [
+      "02_paper_cards/PAPER_CARD_TEMPLATE.md",
+      "06_sop_patches/quant_hunter_sop_patch_20260519.md",
+      "00_governance/audits/validate_quant_hunter_integrity.py",
+      "00_governance/audits/quant_hunter_integrity_audit_20260520.json",
+      "00_governance/audits/schema_audit_scaffold_handoff_20260520.md",
+      "00_governance/audits/canonical_sop_integration_proposal_20260520.md",
+      "11_human_cards/20260520_qh_wc003_schema_audit_scaffold.md"
+    ],
+    "path": "12_work_cards/active/QH-WC-20260520-003_sop_governance_patch_integration.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-004",
+    "title": "QH-WC-20260520-004 Research stack dashboard MVP",
+    "primary_menu": "QH-M9｜Human Closeout / Dashboard",
+    "status": "active",
+    "progress_pct": 75,
+    "priority": "P0",
+    "updated_at": "2026-05-20",
+    "next_minimum_action": "Stabilize remote access: either grant/root-config nginx/Caddy permanent path, or keep managed tunnel process; then connect dashboard auto-rebuild before daily 23:00 review.",
+    "blockers": [
+      "Current remote access uses temporary localtunnel URL; it is not durable across process/server restarts.",
+      "nginx/Caddy durable access not configured because current user lacks root write access to `/etc/nginx`.",
+      "Auto rebuild cron not yet connected.",
+      "Markdown artifact preview is basic.",
+      "Current latest audit is FAIL due known schema gaps."
+    ],
+    "artifacts": [
+      "00_governance/research_stack_dashboard_solution_20260520.md",
+      "dashboard/build_dashboard_index.py",
+      "dashboard/src/main.jsx",
+      "dashboard/src/style.css",
+      "dashboard/public/data/dashboard_index.json"
+    ],
+    "path": "12_work_cards/active/QH-WC-20260520-004_research_stack_dashboard.md"
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "level": 1,
+      "title": "Quant Worldview",
+      "path": "Quant Worldview"
+    },
+    {
+      "level": 2,
+      "title": "Asset Pricing / SDF / Factor Theory",
+      "path": "Quant Worldview > Asset Pricing / SDF / Factor Theory"
+    },
+    {
+      "level": 2,
+      "title": "Factor Discovery / Causality / Validation",
+      "path": "Quant Worldview > Factor Discovery / Causality / Validation"
+    },
+    {
+      "level": 2,
+      "title": "Portfolio Construction / Optimization",
+      "path": "Quant Worldview > Portfolio Construction / Optimization"
+    },
+    {
+      "level": 2,
+      "title": "Risk / Regime / Nonstationarity / Stress",
+      "path": "Quant Worldview > Risk / Regime / Nonstationarity / Stress"
+    },
+    {
+      "level": 2,
+      "title": "Execution / Cost / Capacity / Microstructure",
+      "path": "Quant Worldview > Execution / Cost / Capacity / Microstructure"
+    },
+    {
+      "level": 2,
+      "title": "AI / ML / LLM as Microscope",
+      "path": "Quant Worldview > AI / ML / LLM as Microscope"
+    },
+    {
+      "level": 2,
+      "title": "China Assets / A-share Specific",
+      "path": "Quant Worldview > China Assets / A-share Specific"
+    },
+    {
+      "level": 3,
+      "title": "Trading Rules / T+1 / Limit / Suspend",
+      "path": "Quant Worldview > China Assets / A-share Specific > Trading Rules / T+1 / Limit / Suspend"
+    },
+    {
+      "level": 3,
+      "title": "Broker Factor Research",
+      "path": "Quant Worldview > China Assets / A-share Specific > Broker Factor Research"
+    },
+    {
+      "level": 3,
+      "title": "Microstructure / Tick / Intraday",
+      "path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday"
+    },
+    {
+      "level": 3,
+      "title": "Funds / Holdings / Ownership Network",
+      "path": "Quant Worldview > China Assets / A-share Specific > Funds / Holdings / Ownership Network"
+    },
+    {
+      "level": 3,
+      "title": "Style / Industry / Policy / Flows",
+      "path": "Quant Worldview > China Assets / A-share Specific > Style / Industry / Policy / Flows"
+    },
+    {
+      "level": 2,
+      "title": "Strategy Demo Applications",
+      "path": "Quant Worldview > Strategy Demo Applications"
+    },
+    {
+      "level": 3,
+      "title": "MA Bull4 / 牛头人4.0",
+      "path": "Quant Worldview > Strategy Demo Applications > MA Bull4 / 牛头人4.0"
+    }
+  ],
+  "raw": "# Quant Hunter Knowledge Tree\n\n## Quant Worldview\n\n### Asset Pricing / SDF / Factor Theory\n\n- pending\n\n### Factor Discovery / Causality / Validation\n\n- QH-20260519-001 — Causality and Factor Investing / factor mirage\n- QH-20260519-003 — Relevance-Based Importance / prediction reliability importance\n\nMerged concepts:\n- factor statistical validity is not enough;\n- factor promotion requires causal mechanism + non-redundant marginal contribution;\n- ML importance is microscope, not promotion proof.\n\n### Portfolio Construction / Optimization\n\n- pending: imputed signal values, SAA, alternative investments\n\n### Risk / Regime / Nonstationarity / Stress\n\n- QH-20260519-004 — Nonstationarity Hazard / whether history repeats\n\nMerged concepts:\n- backtest evidence depends on stationarity/reusability of historical states;\n- OOS failure must be classified, not averaged away.\n\n### Execution / Cost / Capacity / Microstructure\n\n- pending global stress/cost papers\n\n### AI / ML / LLM as Microscope\n\n- QH-20260519-003 — importance definitions for ML/factor interpretation\n- QH-20260520-006 — Huatai transaction-level Transformer model as A-share microstructure microscope\n\nMerged concepts:\n- deep/ML methods can discover candidates, but production needs lean PIT expressions;\n- broker-reported deep-learning alpha stays `broker_claim / unreplicated` until local no-future proxy tests survive style, cost, capacity, and nonstationarity gates.\n\n### China Assets / A-share Specific\n\n#### Trading Rules / T+1 / Limit / Suspend\n\n- pending\n\n#### Broker Factor Research\n\n- QH-20260519-005 — A-share high-frequency/tick deep-learning broker reports\n\n#### Microstructure / Tick / Intraday\n\n- QH-20260519-005 — A-share high-frequency/tick deep-learning broker reports\n- QH-20260520-006 — Huatai transaction-level deep-learning stock selection: tick/volume bars, money-flow features, event-driven transaction features, Transformer as microscope.\n\nMerged concepts:\n- bar representation is itself a China A-share microstructure research variable: time bars vs tick bars vs volume bars;\n- deep models should first identify proxy candidates, then be distilled into lean PIT factors and execution gates;\n- next-day suspension/limit filters belong to execution/tradability gates, not T-day ranking features.\n\n#### Funds / Holdings / Ownership Network\n\n- QH-20260519-002 — Asset Embeddings / holdings-network representation\n\n#### Style / Industry / Policy / Flows\n\n- QH-20260519-004 — Nonstationarity Hazard as regime/policy-cycle gate\n\n### Strategy Demo Applications\n\n#### MA Bull4 / 牛头人4.0\n\nCandidate demos:\n\n1. QH-20260519-001 → factor causal mechanism review for MA Bull4 branch_score / open bucket / style controls.\n2. QH-20260519-003 → relevance-based importance for MA Bull4 L6 factor slimming.\n3. QH-20260519-004 → nonstationarity/state-similarity map for MA Bull4 OOS/live-like windows.\n4. QH-20260519-005 → microstructure proxy demo for MA Bull4 open-quality confirmation.\n5. QH-20260519-002 → ownership-network sidecar if A-share fund holdings are locally available.\n6. QH-20260520-006 → transaction/tick/volume-bar proxy sidecar for MA Bull4 L4 open-quality confirmation after strict T-day feature freeze.\n",
+  "path": "08_tree_maps/knowledge_tree.md"
+}

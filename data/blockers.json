@@ -1,0 +1,87 @@
+[
+  {
+    "task_id": "QH-WC-20260520-001",
+    "blocker": "PCA lineage not fully revalidated.",
+    "path": "12_work_cards/active/QH-WC-20260520-001_ma_bull4_nonstationarity_demo.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-001",
+    "blocker": "Low-similarity bucket is mixed: higher right-tail and concentrated left-tail; case review confirms heterogeneous mechanisms.",
+    "path": "12_work_cards/active/QH-WC-20260520-001_ma_bull4_nonstationarity_demo.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-001",
+    "blocker": "Existing policy labels are research artifacts, not production-equivalent proof.",
+    "path": "12_work_cards/active/QH-WC-20260520-001_ma_bull4_nonstationarity_demo.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-001",
+    "blocker": "At least one left-tail case remains `unknown`, and PCA lineage is still caveated.",
+    "path": "12_work_cards/active/QH-WC-20260520-001_ma_bull4_nonstationarity_demo.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-002",
+    "blocker": "Original Huatai PDF/source not yet confirmed.",
+    "path": "12_work_cards/active/QH-WC-20260520-002_china_microstructure_source_hunt.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-002",
+    "blocker": "Sina repost text is clean enough for provisional card but omits some official PDF figures/tables and exact feature definitions.",
+    "path": "12_work_cards/active/QH-WC-20260520-002_china_microstructure_source_hunt.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-002",
+    "blocker": "Report mirrors offering PDF download require login/free account or sit behind document-preview surfaces; not used to bypass access restrictions.",
+    "path": "12_work_cards/active/QH-WC-20260520-002_china_microstructure_source_hunt.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-002",
+    "blocker": "Local transaction-level data availability remains unverified.",
+    "path": "12_work_cards/active/QH-WC-20260520-002_china_microstructure_source_hunt.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-003",
+    "blocker": "Local audit now reveals actual schema drift: the four older 20260519 paper cards are missing upgraded template metadata fields (`China_asset_relevance_score`, `demo_applicability_score`, `access_quality`, `original_source_confirmed`).",
+    "path": "12_work_cards/active/QH-WC-20260520-003_sop_governance_patch_integration.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-003",
+    "blocker": "Scoring ledger count/list must be updated if the new Huatai card/anchor is accepted into reviewed scope.",
+    "path": "12_work_cards/active/QH-WC-20260520-003_sop_governance_patch_integration.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-003",
+    "blocker": "Do not patch canonical factor-library schema or strategy-factory SOP until local audit passes after backfill + ledger sync.",
+    "path": "12_work_cards/active/QH-WC-20260520-003_sop_governance_patch_integration.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-003",
+    "blocker": "Need decide whether canonical patch should target factor-library schema, strategy-factory SOP, or both after local pass.",
+    "path": "12_work_cards/active/QH-WC-20260520-003_sop_governance_patch_integration.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-004",
+    "blocker": "Current remote access uses temporary localtunnel URL; it is not durable across process/server restarts.",
+    "path": "12_work_cards/active/QH-WC-20260520-004_research_stack_dashboard.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-004",
+    "blocker": "nginx/Caddy durable access not configured because current user lacks root write access to `/etc/nginx`.",
+    "path": "12_work_cards/active/QH-WC-20260520-004_research_stack_dashboard.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-004",
+    "blocker": "Auto rebuild cron not yet connected.",
+    "path": "12_work_cards/active/QH-WC-20260520-004_research_stack_dashboard.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-004",
+    "blocker": "Markdown artifact preview is basic.",
+    "path": "12_work_cards/active/QH-WC-20260520-004_research_stack_dashboard.md"
+  },
+  {
+    "task_id": "QH-WC-20260520-004",
+    "blocker": "Current latest audit is FAIL due known schema gaps.",
+    "path": "12_work_cards/active/QH-WC-20260520-004_research_stack_dashboard.md"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "anchor_id": "QH-20260519-001",
+    "title": "Causality and Factor Investing / factor mirage",
+    "source_card": "research/literature/quant-worldview-hunter/02_paper_cards/20260519_cfa_causality_factor_investing.md",
+    "concepts": "[factor_mirage, causal_mechanism, confounder_bias, collider_bias, OOS_failure]",
+    "factor_roles": "[factor_hypothesis_review, research_process_rule]",
+    "sop_hooks": "[causal_mechanism_card, confounder_ledger, collider_warning, diagnostic_only_if_causal_blocked]",
+    "china_asset_hooks": "[A_share_factor_promotion, trading_rule_confounders, liquidity_size_industry_controls]",
+    "demo_hooks": "[ma_bull4_factor_review]",
+    "related_anchors": "[QH-20260519-003, QH-20260519-004]",
+    "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation"
+  },
+  {
+    "anchor_id": "QH-20260519-002",
+    "title": "Asset Embeddings / holdings-network representation",
+    "source_card": "research/literature/quant-worldview-hunter/02_paper_cards/20260519_nber_asset_embeddings.md",
+    "concepts": "[asset_embeddings, holdings_network, co_holding_similarity, ownership_neighbor, crowding]",
+    "factor_roles": "[factor_hypothesis, source_data_feature, risk_governance]",
+    "sop_hooks": "[disclosure_lag_PIT_audit, survivorship_audit, neutralization_required]",
+    "china_asset_hooks": "[fund_holdings, quarterly_disclosure_lag, ownership_network_factor]",
+    "demo_hooks": "[ma_bull4_ownership_sidecar_candidate]",
+    "related_anchors": "[]",
+    "tree_path": "Quant Worldview > China Assets / A-share Specific > Funds / Holdings / Ownership Network"
+  },
+  {
+    "anchor_id": "QH-20260519-003",
+    "title": "Relevance-Based Importance / prediction reliability importance",
+    "source_card": "research/literature/quant-worldview-hunter/02_paper_cards/20260519_jpm_relevance_based_importance.md",
+    "concepts": "[variable_importance, t_stat_limits, shapley_limits, prediction_reliability, collinearity]",
+    "factor_roles": "[factor_redundancy_slimming, model_microscope]",
+    "sop_hooks": "[importance_definition, prediction_reliability_marginal, collinearity_and_redundancy_card]",
+    "china_asset_hooks": "[A_share_factor_slimming, correlated_style_factors]",
+    "demo_hooks": "[ma_bull4_L6_slimming_demo]",
+    "related_anchors": "[QH-20260519-001, QH-20260519-004]",
+    "tree_path": "Quant Worldview > Factor Discovery / Causality / Validation"
+  },
+  {
+    "anchor_id": "QH-20260519-004",
+    "title": "Nonstationarity Hazard / whether history repeats",
+    "source_card": "research/literature/quant-worldview-hunter/02_paper_cards/20260519_jpm_nonstationarity_hazard.md",
+    "concepts": "[nonstationarity, history_repeats, risk_vs_uncertainty, state_similarity, OOS_failure]",
+    "factor_roles": "[risk_governance, regime_model]",
+    "sop_hooks": "[nonstationarity_hazard_card, state_similarity_map, OOS_failure_mode_ledger]",
+    "china_asset_hooks": "[A_share_regime_change, policy_cycles, liquidity_regimes, microcap_cycles]",
+    "demo_hooks": "[ma_bull4_state_similarity_demo]",
+    "related_anchors": "[QH-20260519-001, QH-20260519-003]",
+    "tree_path": "Quant Worldview > Risk / Regime / Nonstationarity / Stress"
+  },
+  {
+    "anchor_id": "QH-20260519-005",
+    "title": "A-share high-frequency/tick deep-learning broker reports",
+    "source_card": "research/literature/quant-worldview-hunter/03_china_assets/china_a_share_p0_source_queue_20260519.md",
+    "concepts": "[tick_features, minute_features, equal_volume_bars, deep_learning_stock_selection, microstructure]",
+    "factor_roles": "[factor_hypothesis, execution_hygiene, model_microscope]",
+    "sop_hooks": "[PIT_intraday_feature_audit, deep_model_as_microscope, lean_proxy_distillation]",
+    "china_asset_hooks": "[T_plus_1, limit_up_down, intraday_liquidity, tick_data]",
+    "demo_hooks": "[ma_bull4_microstructure_proxy_demo]",
+    "related_anchors": "[QH-20260520-006]",
+    "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday"
+  },
+  {
+    "anchor_id": "QH-20260520-006",
+    "title": "Huatai transaction-level deep-learning stock selection",
+    "source_card": "research/literature/quant-worldview-hunter/02_paper_cards/20260520_huatai_tick_deep_learning_stock_selection.md",
+    "concepts": "[transaction_level_data, tick_bar, volume_bar, money_flow_features, event_driven_microstructure, transformer_attention, A_share_intraday_alpha]",
+    "factor_roles": "[factor_hypothesis, execution_hygiene, source_data_feature, SOP_gate, model_microscope]",
+    "sop_hooks": "[PIT_intraday_feature_audit, bar_representation_comparison, deep_model_as_microscope, lean_proxy_distillation, T_day_rank_vs_T_plus_1_execution_gate]",
+    "china_asset_hooks": "[A_share_tick_data, T_plus_1, limit_up_down, suspension_filter, CSI1000_enhancement, microstructure_regime]",
+    "demo_hooks": "[ma_bull4_L4_open_quality_confirmation, ma_bull4_L6_proxy_slimming]",
+    "related_anchors": "[QH-20260519-005, QH-20260519-001, QH-20260519-003, QH-20260519-004]",
+    "tree_path": "Quant Worldview > China Assets / A-share Specific > Microstructure / Tick / Intraday"
+  }
+]

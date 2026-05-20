@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Human Card — QH-WC-20260520-003 Schema/Audit Scaffold",
+    "path": "11_human_cards/20260520_qh_wc003_schema_audit_scaffold.md",
+    "preview": "# Human Card — QH-WC-20260520-003 Schema/Audit Scaffold ## 做了什么 - 继续 Quant Hunter SOP/governance integration。 - 确认已有 engineer audit scaffold，并把 validator 加严：现在会从 `02_paper_cards/` 直接发现 full paper/report card，而不是只检查已被 anchor 引用的卡。 - 跑出 2026-05-20 新审计结果。 - 写了 handoff 和 canonical in"
+  },
+  {
+    "title": "Human Card — MB4 Demo v0 State Similarity Readout",
+    "path": "11_human_cards/20260520_mb4_demo_v0_state_similarity_readout.md",
+    "preview": "# Human Card — MB4 Demo v0 State Similarity Readout ## 做了什么 完成 `MB4_DEMO_20260519_001_v0_state_similarity_readout`。 按前一门 inventory/PIT allowlist 执行，只使用 T 日允许字段构建 state matrix，并将 policy daily return / equity 作为 label 后置 join。 边界保持：research-only；没有 broker/QMT/order/account；没有 Route"
+  },
+  {
+    "title": "Human Card — MB4 Demo Low-Similarity Hazard Case Review",
+    "path": "11_human_cards/20260520_mb4_demo_low_similarity_hazard_case_review.md",
+    "preview": "# Human Card — MB4 Demo Low-Similarity Hazard Case Review ## 做了什么 完成 `MB4_DEMO_20260519_001` 的下一道 gate：`case_review_on_low_similarity_hazard_dates`。 本次只使用既有 v0 输出： - `oos_failure_mode_ledger.csv` - `low_similarity_feature_contributions.csv` - `state_similarity_readout.csv` 没有跑重型回"
+  },
+  {
+    "title": "Human Card — China A-share microstructure source hunt / Huatai tick deep-learning report",
+    "path": "11_human_cards/20260520_china_microstructure_source_hunt.md",
+    "preview": "# Human Card — China A-share microstructure source hunt / Huatai tick deep-learning report ## 做了什么 - 继续推进 `QH-WC-20260520-002`。 - 用公开网页搜索优先核查华泰金工两篇高频/逐笔成交报告。 - 找到并保存两篇新浪财经公开转载正文： - `基于逐笔成交的深度学习选股模型` - `多角度改进高频量价选股模型` - 基于第一篇创建了首张完整报告卡，但标记为 `broker_claim_unreplicated`。 ## 读到了什么 华泰"
+  },
+  {
+    "title": "Human Card — Quant Hunter Skill and Governance Framework",
+    "path": "11_human_cards/20260519_quant_hunter_skill_and_governance_card.md",
+    "preview": "# Human Card — Quant Hunter Skill and Governance Framework ## 做了什么 把“量化打猎”升级成正式技能与长期治理框架： - 创建技能：`skills/quant-hunter/SKILL.md` - 创建矢量锚点目录：`07_vector_anchors/vector_anchor_index.md` - 创建知识挂树：`08_tree_maps/knowledge_tree.md` - 创建 20篇滚动评分升级 ledger：`09_scoring_evolution/scoring_evol"
+  },
+  {
+    "title": "Human Card — MB4 Demo Nonstationarity Artifact Inventory Gate",
+    "path": "11_human_cards/20260519_mb4_demo_nonstationarity_inventory_gate.md",
+    "preview": "# Human Card — MB4 Demo Nonstationarity Artifact Inventory Gate ## 做了什么 直接开始了 `MB4_DEMO_20260519_001` 的下一门：只读 artifact inventory + PIT feature spec。 本轮没有跑重回测，没有触碰生产、Router、Ultra、runtime、latest、current、watchlist，也没有触碰 broker/QMT/order/account。 ## 读到了什么 已定位 19 个 MA Bull / MA Bull4 "
+  }
+]

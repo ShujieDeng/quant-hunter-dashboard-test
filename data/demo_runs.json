@@ -1,0 +1,63 @@
+[
+  {
+    "demo_id": "MB4_DEMO_20260519_001",
+    "created_at": "2026-05-19T23:50:00+08:00",
+    "gate": "artifact_inventory_and_pit_feature_spec",
+    "status": "PASS_TO_V0_STATE_SIMILARITY_READOUT__WITH_CAVEATS",
+    "outputs": [
+      "research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity/artifact_inventory.csv",
+      "research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity/artifact_inventory.md",
+      "research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity/pit_state_feature_spec.json",
+      "research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity/forbidden_feature_ledger.csv",
+      "research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity/minimum_experiment_feasibility.md",
+      "research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity/blocker_inventory.md",
+      "research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity/run_manifest.json"
+    ],
+    "source_design_card": "research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity_design_card.md",
+    "boundary": {
+      "research_only": true,
+      "broker_qmt_order_account": false,
+      "router_ultra_runtime_latest_current_watchlist_mutation": false,
+      "heavy_backtest_run": false
+    },
+    "artifact_count": 19,
+    "existing_artifact_count": 19,
+    "path": "10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_nonstationarity/run_manifest.json"
+  },
+  {
+    "demo_id": "MB4_DEMO_20260519_001",
+    "gate": "v0_state_similarity_readout",
+    "status": "PASS_WITH_CAVEATS",
+    "created_at": "2026-05-20T08:21:00+08:00",
+    "state_rows": 558,
+    "joined_label_rows": 280,
+    "feature_count": 64,
+    "rolling_train_n": 126,
+    "rolling_test_n": 21,
+    "readout_rows": 147,
+    "forbidden_field_violations": [],
+    "boundary": {
+      "research_only": true,
+      "broker_qmt_order_account": false,
+      "router_ultra_runtime_latest_current_watchlist_mutation": false,
+      "production_default_on": false
+    },
+    "caveats": [
+      "sentiment_pca_daily used as diagnostic feature; PCA lineage not fully revalidated in this gate",
+      "policy labels from phase6 continuity/baseline are research artifacts, not production-equivalent MA Bull4 proof",
+      "similarity thresholds are train-window quantiles and diagnostic only"
+    ],
+    "outputs": [
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/t_day_state_matrix.csv",
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/state_similarity_readout.csv",
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/similarity_bin_performance_summary.csv",
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/oos_failure_mode_ledger.csv",
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/state_feature_missingness.csv",
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/low_similarity_feature_contributions.csv",
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/forbidden_field_audit.json",
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/run_manifest.json",
+      "/home/ubuntu/.openclaw/workspace/research/literature/quant-worldview-hunter/10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/readout_summary.md"
+    ],
+    "path": "10_demo_replication/ma_bull4/MB4_DEMO_20260519_001_v0_state_similarity_readout/run_manifest.json"
+  }
+]

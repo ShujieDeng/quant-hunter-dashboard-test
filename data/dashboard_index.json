@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-20T14:04:44",
+  "counts": {
+    "work_cards": 4,
+    "paper_cards": 6,
+    "anchors": 6,
+    "demo_runs": 2,
+    "human_cards": 6,
+    "audits": 4,
+    "blockers": 17,
+    "daily_hunts": 1,
+    "todos": 0
+  },
+  "latest_audit_status": "fail"
+}
