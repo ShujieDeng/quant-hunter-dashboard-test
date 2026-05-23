@@ -1,0 +1,78 @@
+{
+  "lane_state": {
+    "schema_version": "strategy_prodline_lane_state_v0_1",
+    "strategy_id": "demo_strategy",
+    "strategy_display_name": "Demo Strategy Production Line",
+    "project_root": "reports/prodline_pilot/demo_strategy",
+    "active_scope": "sandbox_strategy_development",
+    "current_module": "factor_preparation",
+    "current_stage": "initialized",
+    "evidence_authority": "diagnostic_only",
+    "gate_status": "yellow",
+    "posterior_state": "lane initialized; factor preparation not started",
+    "next_minimum_experiment": "write mechanism_card and factor_bank_lookup, then run prodline validate",
+    "running_task": null,
+    "blockers": [],
+    "warnings": [
+      {
+        "warning_id": "factor_preflight_minimum_artifacts",
+        "severity": "yellow",
+        "reason": "missing early factor-prep artifacts: 01_factor_preparation/mechanism_card.md, 01_factor_preparation/factor_bank_lookup.json, 01_factor_preparation/data_contract.yaml, 01_factor_preparation/pit_no_future_ledger.yaml, 01_factor_preparation/factor_atom_catalog.json",
+        "unblock_action": "create missing artifacts; R&D may continue as diagnostic_only"
+      }
+    ],
+    "latest_artifacts": [],
+    "factor_bank_status": "not_checked",
+    "quant_hunter_gate_status": "not_checked",
+    "boundaries": [
+      "sandbox/research tooling only",
+      "no Router/Ultra/runtime/latest/current/watchlist mutation",
+      "no broker/QMT/order/account"
+    ],
+    "updated_at": "2026-05-23T03:16:43+00:00"
+  },
+  "gate_results": {
+    "schema_version": "strategy_prodline_gate_results_v0_1",
+    "strategy_id": "demo_strategy",
+    "project": "reports/prodline_pilot/demo_strategy",
+    "module": "factor_preparation",
+    "overall_status": "yellow",
+    "results": [
+      {
+        "gate_id": "boundary_research_only",
+        "module": "self_running_ops",
+        "status": "pass",
+        "severity": "green",
+        "blocks_rnd": false,
+        "blocks_promotion": false,
+        "findings": [
+          "research-only boundaries recorded"
+        ],
+        "required_actions": [],
+        "checked_at": "2026-05-23T03:16:43+00:00"
+      },
+      {
+        "gate_id": "factor_preflight_minimum_artifacts",
+        "module": "factor_preparation",
+        "status": "warn",
+        "severity": "yellow",
+        "blocks_rnd": false,
+        "blocks_promotion": true,
+        "findings": [
+          "missing early factor-prep artifacts: 01_factor_preparation/mechanism_card.md, 01_factor_preparation/factor_bank_lookup.json, 01_factor_preparation/data_contract.yaml, 01_factor_preparation/pit_no_future_ledger.yaml, 01_factor_preparation/factor_atom_catalog.json"
+        ],
+        "required_actions": [
+          "create missing artifacts; R&D may continue as diagnostic_only"
+        ],
+        "checked_at": "2026-05-23T03:16:43+00:00"
+      }
+    ],
+    "updated_at": "2026-05-23T03:16:43+00:00"
+  },
+  "artifact_registry": {
+    "schema_version": "strategy_prodline_artifact_registry_v0_1",
+    "strategy_id": "demo_strategy",
+    "artifacts": [],
+    "updated_at": "2026-05-23T03:16:43+00:00"
+  }
+}
